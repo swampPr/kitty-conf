@@ -1,0 +1,44 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+
+
+background_image  /home/jd/Downloads/Wallpapers/Wallpaper_Blur_2.png
+background_image_layout scaled
+
+# BEGIN_KITTY_FONTS
+font_family      family="0xProto Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
+
+window_padding_width 0
+placement_strategy center
+
+cursor_trail 10
+cursor_trail_decay 0.1 0.4
+cursor_shape block
+cursor_blink_interval 0.5
+shell_integration no-cursor
+
+
+tab_bar_style   powerline
+tab_bar_edge    top
+tab_powerline_style     round
+tab_bar_align           left
+tab_bar_min_tabs        1
+tab_bar_margin_width    0
+tab_bar_margin_height   2 0
+
+tab_title_template "󰓩  {title}"
+active_tab_title_template "󰄛 {title} "
+
+active_tab_foreground   #0f2a3d
+active_tab_background   #7fc8d9
+active_tab_font_style   bold
+
+inactive_tab_foreground #a8c5d1
+inactive_tab_background #1c3f52
+inactive_tab_font_style normal
+
+tab_bar_background      #0d2436
